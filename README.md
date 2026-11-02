@@ -1,5 +1,7 @@
 # Qwen3.8-Flash-Next NVFP4 on 2× RTX 5060 Ti 16 GB + 64 GB RAM (Basalt)
 
+**English** | [한국어](README.ko.md)
+
 A measured, working configuration for running the **NVFP4** Basalt pack of Qwen3.8-Flash-Next (122 GiB file, 63.3 GiB of experts) on a mid-range dual-GPU desktop. **All experts are served from VRAM and pinned RAM, so the SSD is not used as a tier.** No requests were refused up to 103.7K tokens of context.
 
 Shared as a reference. Your numbers will differ with other hardware, engine commits and workloads.
